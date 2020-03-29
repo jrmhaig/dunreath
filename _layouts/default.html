@@ -8,13 +8,43 @@
   </head>
   <body>
     {% include navbar.html %}
-    <section class="section">
-      <div class="container">
-        <h1 class="title">{{ page.title }}</h1>
-        <section>
-          {{ content }}
-        </section>
+    <section class="hero is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-mobile is-centered is-vcentered">
+            <div class="column is-one-third is-hidden-tablet">
+              <figure class="image container is-96x96">
+                <img class="is-rounded" src="assets/images/house.jpg" alt="Dunreath from the road" />
+              </figure>
+            </div>
+            <div class="column">
+              <h1 class="title">Dunreath</h1>
+              <h2 class="subtitle">
+                {{ page.title }}
+              </h2>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <div class="container">
+      <section class="section">
+        <div class="columns">
+          <div class="column is-one-third is-hidden-mobile">
+            <div class="box">
+              <figure class="image is3by4">
+                <img class="is-rounded" src="assets/images/house.jpg" alt="Dunreath from the road" />
+              </figure>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    {% include footer.html %}
   </body>
 </html>
