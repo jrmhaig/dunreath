@@ -31,31 +31,31 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 navbar:
   - text: Home
-    link: /
+    link: 
   - text: Students and pupils
-    link: /students-and-pupils
+    link: students-and-pupils
     submenu:
       - text: University students
-        link: /university-students
+        link: university-students
       - text: Study centre
-        link: /study-centre
+        link: study-centre
       - text: Boys club
-        link: /boys-club
+        link: boys-club
       - text: Safeguarding young people
-        link: /safeguarding
+        link: safeguarding
       - text: Leadership team
-        link: /leadership
+        link: leadership
   - text: Dunreath centre
-    link: /dunreath-centre
+    link: dunreath-centre
     submenu:
       - text: Activities for men
-        link: /activities-for-men
+        link: activities-for-men
   - text: Contact
-    link: /contact
+    link: contact
   - text: Opus Dei
-    link: /opus-dek
+    link: opus-dek
   - text: New club room
-    link: /new-club-room
+    link: new-club-room
 
 # Build settings
 #theme: minima

@@ -2,7 +2,7 @@
   <div class="container">
   <div class="navbar-brand">
     <a class="navbar-item" href="{{ site.baseurl }}">
-      <img src="{{ site.baseurl }}assets/images/dunreath_shield.jpg" width="28" height="28">
+      <img src="{{ site.baseurl }}/assets/images/dunreath_shield.jpg" width="28" height="28">
     </a>
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -22,14 +22,14 @@
             </a>
             <div class="navbar-dropdown">
               {% for subitem in item.submenu %}
-                <a class="navbar-item" href="{{ site.baseurl }}{{ subitem.link }}">
+                <a class="navbar-item" href="{{ site.baseurl }}/{{ subitem.link }}">
                   {{ subitem.text }}
                 </a>
               {% endfor %}
             </div>
           </div>
         {% else %}
-          <a class="navbar-item" href="{{ site.baseurl}}{{ item.link }}">
+          <a class="navbar-item" href="{{ site.baseurl}}/{{ item.link }}">
             {{ item.text }}
           </a>
         {% endif %}
