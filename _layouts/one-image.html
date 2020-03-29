@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% if page.image %}
+  {% capture src %}{{ site.baseurl }}/assets/images/{{page.image.source}}{% endcapture %}
+  {% capture alt %}{{ site.alt }}{% endcapture %}
+{% else %}
+  {% capture src %}{{ site.baseurl }}/assets/images/house.jpg{% endcapture %}
+  {% capture alt %}Dunreath from the road{% endcapture %}
+{% endif %}
+
+<div class="columns">
+  <div class="column is-one-third is-hidden-mobile">
+    <div class="box">
+      <figure class="image is3by4">
+        <img class="is-rounded" src="{{ src }}" alt="{{ alt }}" />
+      </figure>
+    </div>
+  </div>
+  <div class="column">
+    <div class="box">
+      {{ content }}
+    </div>
+  </div>
+</div>

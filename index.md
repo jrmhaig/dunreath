@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: one-image
 ---
 Dunreath started in 1982 and was originally located in Glasgow’s West End. In 1995 it moved to its current, larger, premises on Glasgow's south side.
 Dunreath provides a varied programme of Christian and human formation to men of all ages that fosters and develops their skills, talents and values.
